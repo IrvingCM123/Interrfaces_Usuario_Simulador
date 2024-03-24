@@ -1,0 +1,47 @@
+.Contenedor {
+  height: 100vh;
+  width: 100%;
+  background-color: #CAE4E5;
+
+  display: grid;
+  grid-template-rows: 11% 89%;
+  grid-template-areas: "Navegacion" "Contenido";
+}
+
+.Navegacion {
+  grid-area: Navegacion;
+  width: 100%;
+  min-height: 100%;
+  background-color: #ff0000;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cuerpo {
+  grid-area: Contenido;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-areas: "Camara Principal";
+}
+
+.camara {
+  grid-area: Camara;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.informacion {
+  grid-area: Principal;
+  width: 100%;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+
+

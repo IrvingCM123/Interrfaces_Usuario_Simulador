@@ -1,0 +1,67 @@
+.contenedor {
+  position: relative;
+  width: 100%;
+  min-width: 71vw;
+  min-height: 72vh;
+
+  height: max-content;
+  padding: 1% 1%;
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.tarjeta {
+  position: absolute;
+  width: 98%;
+  max-height: 100%;
+  /*min-height: 97%; */
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(86, 84, 84, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 0% 5%;
+
+  overflow-y: scroll;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  padding: 2% 0;
+}
+
+.titulo h4 {
+  font-size: 170%;
+  font-weight: 600;
+  color: #12307A;
+  font-family: sans-serif;
+}
+
+.table thead tr th {
+  font-size: 80%;
+  text-align: center;
+}
+
+.table tbody tr td {
+  font-size: 80%;
+  text-align: center;
+}
+
+.table tbody th {
+  font-size: 80%;
+  text-align: center;
+}
+

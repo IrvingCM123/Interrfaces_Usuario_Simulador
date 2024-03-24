@@ -1,0 +1,20 @@
+<nav class="navegador">
+  <section class="nombre_logo">
+    <img
+      src="assets/escudo1.png"
+      alt="Logo"
+      class="logo"
+      style="width: 11%; padding-right: 5%"
+    />
+    <h1 class="nombre"> Facultad de Negocios y Tecnologias </h1>
+  </section>
+
+  <section class="rutas_navegacion">
+    <a [routerLink]="['/inicio']" routerLinkActive="active" > Inicio </a>
+    <a [routerLink]="['/configuracion']" routerLinkActive="active"> Configuracion </a>
+    <p style="font-size: 190%; margin: 0; padding: 0px; color: #fff">|</p>
+    <a style="cursor: pointer; color: #000;" class="boton_Encendido">
+      Encendido
+    </a>
+  </section>
+</nav>
