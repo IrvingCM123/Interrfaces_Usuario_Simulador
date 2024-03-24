@@ -12,4 +12,12 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  encender = true;
+
+  encenderApagar(){
+    this.encender = !this.encender;
+  }
+
+
+
 }

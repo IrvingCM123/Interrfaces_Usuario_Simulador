@@ -13,8 +13,11 @@
     <a [routerLink]="['/inicio']" routerLinkActive="active" > Inicio </a>
     <a [routerLink]="['/configuracion']" routerLinkActive="active"> Configuracion </a>
     <p style="font-size: 190%; margin: 0; padding: 0px; color: #fff">|</p>
-    <a style="cursor: pointer; color: #000;" class="boton_Encendido">
+    <a style="cursor: pointer; color: #000;" class="boton_Encendido" *ngIf="encender" (click)="encenderApagar()">
       Encendido
+    </a>
+    <a style="cursor: pointer; color: #000;" class="boton_Encendido"  *ngIf="!encender" (click)="encenderApagar()">
+      Apagado
     </a>
   </section>
 </nav>
